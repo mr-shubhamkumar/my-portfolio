@@ -10,7 +10,7 @@ const Contact = () => {
           <div className="contact__container container grid">
             <div className="contact__content">
               <h3 className="contact__title">Talk to Me</h3>
-
+{/* Email */}
               <div className="contact__info">
                 <div className="contact__card">
                   <i className="bx bx contact__card-icon"></i>
@@ -22,28 +22,19 @@ const Contact = () => {
                     <i className="bx bx-right-arrow-alt contact__button-icon"></i>
                   </a>
                 </div>
-
+{/* Whatsapp */}
                 <div className="contact__card">
                   <i className="bx bx contact__card-icon"></i>
 
                   <h3 className="contact__card-title">Whatsapp</h3>
-                  <span className="contact__card-data">8957168425</span>
+                  <span className="contact__card-data">6386064964</span>
                   <a href="" className="contact_button">
                   Write Me{""}
                     <i className="bx bx-right-arrow-alt contact__button-icon"></i>
                   </a>
                 </div>
                 
-                <div className="contact__card">
-                  <i className="bx bx contact__card-icon"></i>
-
-                  <h3 className="contact__card-title">Whatsapp</h3>
-                  <span className="contact__card-data">8957168425</span>
-                  <a href="" className="contact_button">
-                  Write Me{""}
-                    <i className="bx bx-right-arrow-alt contact__button-icon"></i>
-                  </a>
-                </div>
+              
               </div>
             </div>
 
