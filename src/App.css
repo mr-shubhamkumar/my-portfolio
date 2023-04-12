@@ -75,7 +75,7 @@ html {
   scroll-behavior: smooth;
 }
 body{
-  overflow: hidden;
+  overflow-y: hidden;
 }
 
 body,
