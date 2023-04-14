@@ -9,21 +9,21 @@ const Contact = () => {
           <span className="section__subtitle">Contact Me</span>
 
           <div className="contact__container container grid">
-            <div className="contact__content">
+            <div className="contact__content ">
               <h3 className="contact__title">Talk to Me</h3>
               <div className="contact__info">
-{/* Email */}
+                  {/* Email */}
                 <div className="contact__card">
                   <i className="bx bx-mail-send contact__card-icon"></i>
 
                   <h3 className="contact__card-title">Email</h3>
-                  <span className="contact__card-data">use@gmail.com</span>
+                  <span className="contact__card-data">shri.shubham.kr@gmail.com</span>
                   <a href="shri.shubham.kr@gmail.com"target='_blank' className="contact__button">
                   Write Me{""}
                     <i className="bx bx-right-arrow-alt contact__button-icon"></i>
                   </a>
                 </div>
-{/* Whatsapp */}
+                 {/* Whatsapp */}
                 <div className="contact__card">
                   <i className="bx bxl-whatsapp contact__card-icon"></i>
 
@@ -41,6 +41,7 @@ const Contact = () => {
 
             <div className="contact__content">
               <h3 className="contact__title">Write Massage</h3>
+              <div className="contact__info">
               <form action="" className='contact_form' method="post">
               {/* name */}
                 <div className="contact__form_div">
@@ -55,9 +56,9 @@ const Contact = () => {
                   placeholder='Enter Your Email' />
                 </div>
                 {/* massage */}
-                <div className="contact__form_div">
-                  <label htmlFor="" className='contact__from-tag'>Massage</label>
-                  <textarea name="massage" id="" className="contact__form-input"
+                <div className="contact__form_div contact__form-area">
+                  <label htmlFor="" className='contact__from-tag '>Massage</label>
+                  <textarea name="massage" id="" className="contact__form-input "
                    cols="30" rows="10"></textarea>
                 </div>
 
@@ -82,6 +83,7 @@ const Contact = () => {
                 </svg>
             </a>
               </form>
+              </div>
             </div>
           </div>
         </section>

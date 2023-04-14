@@ -2,7 +2,7 @@
     grid-template-columns: repeat(2, max-content);
     justify-content: center;
     column-gap: 6rem;
-    padding-bottom: 3rem;
+     padding-bottom: 3rem;
 }
 .contact__title{
     text-align: center;
@@ -22,9 +22,9 @@
 .contact__card{
     background-color: var(--container-color);
     border: 1px solid rgb(0, 0, 0, 0.1);
-    padding: 1rem;
     border-radius: 0.75rem;
     text-align: center;
+    
 }
 .contact__card-icon{
     font-size: 2rem;
@@ -87,5 +87,40 @@ transform: translate(0.25rem);
     left: 1.25rem;
     font-size: var(--small-font-size);
     padding: 0.25rem;
-    background-color: var(--);
+    background-color: var(--body-color);
+    z-index: 10;
+}
+.contact__form-area{
+    height: 11rem; 
+}
+.contact__form-area textarea{
+    resize: none;
+}
+
+/* For large devices */
+@media screen and (max-width: 992px) {
+  .contact__container{
+
+    column-gap: 3rem;
+  }
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+    .contact__container{
+        grid-template-columns: 1fr;
+        row-gap: 3rem;
+    }
+    .contact__info{
+
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 576px) {
+}
+
+/* For small devices */
+@media screen and (max-width: 350px) {
+ 
 }
